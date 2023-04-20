@@ -7,7 +7,8 @@ CREATE TABLE hospitales (
   cod_hospital INTEGER,
   nombre       VARCHAR(50),
   direccion    VARCHAR(50),
-  num_plazas   INTEGER
+  num_plazas   INTEGER,
+  primary key (cod_hospital)
 );
 
 CREATE TABLE personas (
